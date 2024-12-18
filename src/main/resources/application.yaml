@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+spring:
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:6432/gateway
+    username: postgres
+    password: postgres
+
+  flyway:
+    password: postgres
+    user: postgres
+    url: jdbc:postgresql://localhost:6432/gateway
